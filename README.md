@@ -10,6 +10,6 @@ By the way.  I had a couple missteps along the way to making this blank Unity pr
 
 ```git reset --hard HEAD^```
 
-a couple times because github desktop wanted to sync all the files in the project even though I was trying to tell it not to with the .gitignore.  This misstep helped me realize what I had seen somebody else do.  I could take the project folder and move it around.  So I took the project folder out of the local repository folder, copied the .gitignore file to that folder.  Then, I used the git reset command to get back to the empty (or nearly empty repository).  Then, I moved the Unity project folder back into the local repo, commited the changes, then pushed.  It worked like a champ.
+(from terminal) a couple times because github desktop wanted to sync all the files in the project even though I was trying to tell it not to with the .gitignore.  This misstep helped me realize what I had seen somebody else do.  I could take the project folder and move it around.  So I took the project folder out of the local repository folder, copied the .gitignore file to that folder.  Then, I used the git reset command to get back to the empty (or nearly empty repository).  Then, I moved the Unity project folder back into the local repo, commited the changes, then pushed.  It worked like a champ.
 
 So remember.  Put the .gitignore file into the Unity project folder.  That is the key.  (Oh and put the folder into the repository after you do that.)
